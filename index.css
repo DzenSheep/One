@@ -252,7 +252,7 @@ a {
     width: 1461px;
     height: 985px;
     margin: 0 auto;
-    background-image: url(/images/image__2.jpg);
+    background-image: url(./images/image__2.jpg);
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
