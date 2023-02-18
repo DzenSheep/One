@@ -4,6 +4,11 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link rel="stylesheet" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
@@ -76,7 +81,120 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+			<img src="./images/Background.jpg" alt="Фон" class="background">
+			<header class="header">
+				<img src="./images/header__logo.svg" alt="Логотип" class="header__logo">
+				<nav class="header__navigaion">
+					<a class="header__link" href="#">Information</a>
+					<a class="header__link" href="#">About As</a>
+					<a class="header__link" href="#">Culture</a>
+				</nav>
+				<a href="#" class="header__search">
+					<img src="./images/search__logo.svg" alt="Поиск" class="header__search_logo">Search
+				</a>
+			</header>
+			<div class="hero__main">
+
+				<div class="hero__head">
+					<div class="hero__orange">
+						<div class="hero__header_titre"></div>
+						<h1 class="hero__header_title">explore the Nature Beauty</h1>
+					</div>
+					<nav class="hero__feedback">
+						<p class="hero__feedback_text">Follow Us</p>
+						<a href="#" class="hero__feedback_link"><img src="/images/instagram.svg" alt="instagram"></a>
+						<a href="#" class="hero__feedback_link"><img src="/images/twitter.svg" alt="twitter"></a>
+						<a href="#" class="hero__feedback_link"><img src="/images/Facebook.svg" alt="Facebook"></a>
+					</nav>
+					<div class="hero__subtitle">
+					<h2 class="hero__main_subtitle">Discover</h2><br>
+					<p class="hero__main_subtitle-text">Wonderful Indonesia</p>
+					<button class="hero__scroll" >Scroll down <img src="./images/arrow_downward_24px.svg" alt="Arrow down" class="hero__scroll_arrow"></button>
+				</div>
+				</div>
+			</div>
+			<div class="counter">
+				<img class="counter__image" src="/images/image__1.jpg" alt="Counter">
+				<div class="counter__about">
+					<div class="counter__head">
+					<div class="titre"></div><h2 class="counter__title">EAST NUSA TENGGARA</h2></div>
+					<h3 class="counter__subtitle">Have you enjoyed your holiday?</h3>
+					<p class="counter__text">You will be amazed if you 
+					take part in this sailing Komodo island tour package. 
+					So it is also mandatory for you, besides enjoying Komodo 
+					tourism on Komodo Island, you also have to taste the marine tourism. 
+					The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
+					<button class="counter__button">read more →</button>
+				</div>
+			</div>
+			<div class="promo">
+				<div class="promo__main">
+					<div class="titre"></div>
+					<h2 class="promo__title">BROMO</h3>
+					<div class="titre"></div>
+				</div>
+				<h3 class="promo__subtitle">Steady your steps, we will climb together!</h3>
+				<p class="promo__text">Enjoying the vast expanse of the
+					sea of sand, witnessing the splendor of Mount Semeru
+					that soars into the sky, and gazing at the beauty of 
+					the sun moving out of its bed or otherwise enjoying
+					the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
+				<button class="counter__button">read more →</button>
+			</div>
+			<div class="culture">
+				<div class="culture__about">
+					<div class="culture__head">
+					<div class="titre"></div><h2 class="culture__title">INDONESIAN CULTURE</h2></div>
+					<h3 class="culture__subtitle">Our culture here is very friendly to people</h3>
+					<p class="culture__text">known for his politeness, manners and gentleness. 
+						This becomes a characteristic when they mingle with other tribes and
+						 become basic traits that are passed down by their ancestors.</p>
+					<button class="culture__button">read more →</button>
+				</div>
+				<img class="culture__image" src="/images/image__3.jpg" alt="Counter">
+			</div>
+			<footer class="footer">
+				<div class="footer__head">
+					<img src="/images/footer__logo.svg" alt="Логотип" class="footer__logo">
+					<p class="footer__head_ask">Ready to explore?</p>
+					<button class="footer__head_button">Get started</button>
+				</div>
+				<div class="footer__line"></div>
+				<div class="footer__middle">
+				<div class="footer__vacation">
+					<h5 class="footer__vacation_title">Let's go on vacation, Make your day</h5>
+					<div class="footer__vacation_bottom">
+						<p class="footer__email">Email adress</p>
+						<button class="footer__vacation_button"><img src="/images/arrow_right.svg" alt="Arrow" class="footer__arrow"></button>
+					</div>
+				</div>
+				<div class="footer__nav">
+					<ul class="footer__nav_services">
+						<li class="footer__nav_link footer__nav_link-head">Services</li>
+						<li class="footer__nav_link">Email Marketing</li>
+						<li class="footer__nav_link">Campaigns</li>
+						<li class="footer__nav_link">Branding</li>
+						<li class="footer__nav_link">Offline</li>
+					</ul>
+					
+					<ul class="footer__nav_about">
+						<li class="footer__nav_link footer__nav_link-head">About</li>
+						<li class="footer__nav_link">Our Story</li>
+						<li class="footer__nav_link">Benefits</li>
+						<li class="footer__nav_link">Team</li>
+						<li class="footer__nav_link">Careers</li>
+					</ul>
+					
+					<ul class="footer__nav_help">
+						<li class="footer__nav_link footer__nav_link-head">Help</li>
+						<li class="footer__nav_link">FAQs</li>
+						<li class="footer__nav_link">Contact Us</li>
+					</ul>
+				</div>
+			</div>
+
+
+			</footer>
 		</div>
 </body>
 </html>
